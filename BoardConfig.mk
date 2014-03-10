@@ -44,5 +44,5 @@ TARGET_PREBUILT_KERNEL := device/lge/e450/kernel
 #BOARD_HAS_LARGE_FILESYSTEM := true
 
 #recovery resolution fix
-DEVICE_RESOLUTION := 240x320
+DEVICE_RESOLUTION := 480x800
 
