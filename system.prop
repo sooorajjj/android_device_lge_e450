@@ -1,3 +1,7 @@
 #
 # system.prop for e450
 #
+ro.product.model=LG-E450
+ro.product.brand=lge
+ro.product.device=e450
+ro.product.board=e450
