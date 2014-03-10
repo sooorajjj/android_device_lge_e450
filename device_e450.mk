@@ -16,9 +16,17 @@ endif
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
+  # $(LOCAL_PATH)/init.e0.rc:root/init.rc \
+  # $(LOCAL_PATH)/ueventd.e0.rc:root/ueventd.rc \
+  # $(LOCAL_PATH)/init.e0.usb.rc:root/init.usb.rc
+  
+
 
 $(call inherit-product, build/target/product/full.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
+PRODUCT_MANUFACTURER := LGE
+PRODUCT_BRAND := lge
 PRODUCT_NAME := full_e450
 PRODUCT_DEVICE := e450
+PRODUCT_MODEL := LG-E450
