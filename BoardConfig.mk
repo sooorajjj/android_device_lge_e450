@@ -42,3 +42,7 @@ TARGET_PREBUILT_KERNEL := device/lge/e450/kernel
 #BOARD_HAS_NO_SELECT_BUTTON := true
 # Use this flag if the board has a ext4 partition larger than 2gb
 #BOARD_HAS_LARGE_FILESYSTEM := true
+
+#recovery resolution fix
+DEVICE_RESOLUTION := 240x320
+
